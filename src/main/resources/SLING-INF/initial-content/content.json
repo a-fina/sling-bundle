@@ -2,9 +2,13 @@
     "jcr:primaryType" : "nt:unstructured",
     "mytest" : {
         "jcr:primaryType" : "nt:unstructured",
-        "test" : {
+        "service" : {
             "jcr:primaryType" : "nt:unstructured",
-            "sling:resourceType" : "samples:mytest"
+            "sling:resourceType" : "samples:service"
+        },
+        "schedule" : {
+            "jcr:primaryType" : "nt:unstructured",
+            "sling:resourceType" : "samples:schedule"
         }
     }
 }

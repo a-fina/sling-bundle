@@ -37,7 +37,7 @@ import org.slf4j.LoggerFactory;
  */
 @Component(metatype=true)
 @Service
-public class SimpleDSComponent implements Runnable {
+public class SimpleDSComponentImpl implements Runnable {
     
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     
@@ -48,6 +48,7 @@ public class SimpleDSComponent implements Runnable {
     String jobName = "case2";
     
     public String sayHello() {
+        // ERROR scheduler is null ->> run();
         return"HeeloDS";
     }
     public void run() {
