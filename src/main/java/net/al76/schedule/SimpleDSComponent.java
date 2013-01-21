@@ -37,7 +37,7 @@ import org.slf4j.LoggerFactory;
  */
 @Component(metatype=true)
 @Service
-public class SimpleDSComponentImpl implements Runnable {
+public class SimpleDSComponent implements Runnable {
     
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     

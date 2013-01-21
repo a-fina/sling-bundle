@@ -1,4 +1,4 @@
 <%
 var service =
- sling.getService(Packages.net.al76.schedule.SimpleDSComponentImpl);
+ sling.getService(Packages.net.al76.schedule.SimpleDSComponent);
 %>The service2 says: "<%= service.sayHello() %>"
