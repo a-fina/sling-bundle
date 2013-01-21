@@ -1,0 +1,4 @@
+<%
+var service =
+ sling.getService(Packages.net.al76.services.SampleServiceImpl);
+%>The service2 says: "<%= service.sayHello() %>"
