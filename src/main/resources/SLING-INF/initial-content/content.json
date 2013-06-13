@@ -5,10 +5,6 @@
         "service" : {
             "jcr:primaryType" : "nt:unstructured",
             "sling:resourceType" : "samples:service"
-        },
-        "schedule" : {
-            "jcr:primaryType" : "nt:unstructured",
-            "sling:resourceType" : "samples:schedule"
         }
     }
 }
