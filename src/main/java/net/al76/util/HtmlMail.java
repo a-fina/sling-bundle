@@ -40,9 +40,9 @@ public class HtmlMail {
         if (debug){
             email.setHostName("smtp.gmail.com");
             email.setSmtpPort(587);
-            email.setAuthenticator(new DefaultAuthenticator("ale.finam", "4l3dicebay0"));
+            email.setAuthenticator(new DefaultAuthenticator("user", "pass"));
             email.setTLS(true);
-            email.setFrom("ale.finam@gmail.com", "Ale Bundle Email");
+            email.setFrom("user@gmail.com", "Ale Bundle Email");
         }
 
         email.setSubject(subject);
